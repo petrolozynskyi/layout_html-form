@@ -1,1 +1,47 @@
 /* styles go here */
+
+.registration {
+  margin-top: 20px;
+}
+
+.button {
+  margin-top: 20px;
+
+}
+
+.facts {
+
+  margin-top: 20px;
+}
+
+.info {
+  margin-top: 20px;
+}
+
+.last {
+  margin-bottom: 0;
+}
+
+label {
+  display: block;
+  /* margin: 10px; */
+}
+
+.div {
+  display: flex;
+  align-items: center;
+}
+
+/* fieldset {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+} */
+
+fieldset > .foo:not(:first-of-type) {
+  margin-top: 10px;
+}
+
+.qwe {
+  margin-top: 10px;
+}
