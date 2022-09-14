@@ -13,96 +13,119 @@
 
   <body>
     <form action="https://mate-academy-form-lesson.herokuapp.com/create-application">
-      <fieldset class="personal">
+      <fieldset class="personal field">
         <legend>Personal information</legend>
         <label class="label foo">
           Surname:
-          <input type="text" name="surname"
-           autocomplete="off"
+          <input type="text"
+            name="surname"
+            autocomplete="off"
           >
         </label>
 
         <label class="label foo">
           Name:
-          <input type="text" autocomplete="off">
+          <input
+            type="text"
+            autocomplete="off"
+          >
         </label>
 
 
         <label class="label foo">
           How old are You?
           <input type="number" name="how old are you"
-           value="12" min="1"
-           max="100"
+            value="12" min="1"
+            max="100"
           >
         </label>
 
 
         <label class="label foo">
           Full date of birth:
-          <input type="date" name="surname"
-           placeholder="mm/dd/yyyy"
+          <input
+            type="date"
+            name="surname"
+            placeholder="mm/dd/yyyy"
           >
         </label>
 
 
         <label class="last label foo">
           I accept the term of the agreement
-          <input type="checkbox" name="terms"
-           required
+          <input
+            type="checkbox"
+            name="terms"
+            required
           >
         </label>
 
       </fieldset>
-      <fieldset class="registration">
+      <fieldset class="field">
         <legend>Registration</legend>
 
         <label class="label foo">
           E-mail:
-          <input type="email" name="e-mail"
-           placeholder="email@example.com"
+          <input
+            type="email"
+            name="e-mail"
+            placeholder="email@example.com"
           >
         </label>
 
 
         <label class="last label foo">
           Password:
-          <input type="password" name="password"
-           minlength="5" maxlength="32"
+          <input
+            type="password"
+            name="password"
+            minlength="5"
+            maxlength="32"
           >
         </label>
 
       </fieldset>
-      <fieldset class="facts">
+      <fieldset class="field">
         <legend>An interesting fact about you!</legend>
 
         <div class="div foo">Do you love cats?
           <label class="radio">
-            <input type="radio" name="love"
-          value="yes"
+            <input
+             type="radio"
+             name="love"
+             value="yes"
             >
           Yes
           </label>
           <label class="radio">
-            <input type="radio" name="love"
-           value="no"
+            <input
+             type="radio"
+             name="love"
+             value="no"
             >
           No
           </label>
         </div>
 
 
-        <label class="form-field label foo qwe">
+        <label class="form-field
+         label
+         foo
+          qwe">
           What is your favorite color?
-          <input type="color" name="color"
-           multiple
+          <input
+            type="color"
+            name="color"
+            multiple
           >
         </label>
 
 
         <label class="form-field label foo">
           What time do you go to bed?
-          <input type="time" name="time"
-          step="1"
+          <input type="time"
+            name="time"
+            step="1"
           >
         </label>
 
@@ -119,11 +142,14 @@
 
         <label class="last label foo">
           How do you rate our work?
-          <input type="range" name="work">
+          <input
+            type="range"
+            name="work"
+          >
         </label>
 
       </fieldset>
-      <fieldset class="info">
+      <fieldset class="field">
         <legend>Additional info:</legend>
         </legends>
 
